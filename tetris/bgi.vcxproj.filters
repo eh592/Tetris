@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shapes">
+      <UniqueIdentifier>{659eeffc-5f6d-47d2-b9f7-6049010974dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Borland">
+      <UniqueIdentifier>{f4ac274d-0631-4a55-90af-9871ac6f7f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bordland">
+      <UniqueIdentifier>{5d5022fc-6167-490c-8719-559b30778c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{bad78775-7692-41b3-a722-510cd3ac6a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functionality">
+      <UniqueIdentifier>{ad608687-460d-47e2-b813-d107fbed41a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Functionality">
+      <UniqueIdentifier>{c778df55-73ce-42e5-8393-5f131d3b319e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bgiout.cxx">
+      <Filter>Source Files\Bordland</Filter>
+    </ClCompile>
+    <ClCompile Include="dibutil.cxx">
+      <Filter>Source Files\Bordland</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.cxx">
+      <Filter>Source Files\Bordland</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cxx">
+      <Filter>Source Files\Bordland</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cxx">
+      <Filter>Source Files\Bordland</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cxx">
+      <Filter>Source Files\Bordland</Filter>
+    </ClCompile>
+    <ClCompile Include="palette.cxx">
+      <Filter>Source Files\Bordland</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cxx">
+      <Filter>Source Files\Bordland</Filter>
+    </ClCompile>
+    <ClCompile Include="winbgi.cxx">
+      <Filter>Source Files\Bordland</Filter>
+    </ClCompile>
+    <ClCompile Include="winthread.cxx">
+      <Filter>Source Files\Bordland</Filter>
+    </ClCompile>
+    <ClCompile Include="Ishape.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Jshape.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Lshape.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Oshape.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sshape.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Tshape.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Zshape.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetrimino.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetris.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewBox.cpp">
+      <Filter>Source Files\Functionality</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dibutil.h">
+      <Filter>Header Files\Borland</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Header Files\Borland</Filter>
+    </ClInclude>
+    <ClInclude Include="winbgi.h">
+      <Filter>Header Files\Borland</Filter>
+    </ClInclude>
+    <ClInclude Include="winbgim.h">
+      <Filter>Header Files\Borland</Filter>
+    </ClInclude>
+    <ClInclude Include="winbgitypes.h">
+      <Filter>Header Files\Borland</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetrimino.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Ishape.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Jshape.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Lshape.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Oshape.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sshape.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Tshape.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Zshape.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviewBox.h">
+      <Filter>Header Files\Functionality</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
