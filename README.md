@@ -7,23 +7,23 @@ Objects:
 
 The Square Object:  
 
-    Methods 
+Methods 
 
-    This is the fundamental building block (literally) of our Tetris Project. This object will be one that can draw and move (left, right, and down).  
+This is the fundamental building block (literally) of our Tetris Project. This object will be one that can draw and move (left, right, and down).  
 
-    Data Members 
+Data Members 
 
-    This object will also have a (x, y) position on the play field, its state, and its color. The state of the object will be predefined as being either FALLING or HIT which means it is the block continues to be FALLING until it HITS either another block or the bottom of the game field. This state is only for the sole purpose of easily tracking the state of the current block and using its state as a means to keep my code readable.   
+This object will also have a (x, y) position on the play field, its state, and its color. The state of the object will be predefined as being either FALLING or HIT which means it is the block continues to be FALLING until it HITS either another block or the bottom of the game field. This state is only for the sole purpose of easily tracking the state of the current block and using its state as a means to keep my code readable.   
 
 The Tetrimino: 
 
-    Pure Virtual Functions 
+Pure Virtual Functions 
 
-    This is the Abstract Base Class (ABC) that is constructed to allow all the other shapes of the tetrimino to follow a common structure further exemplifying the idea of . It will have two pure virtual functions, the first being rotate clockwise and the other rotate counter clockwise. The first reason for these to be pure virtual is so that it can make the class an ABC, meaning we need at least one function to be a pure virtual to make this an ABC. Secondly, all the other tetriminos rotate in their own unique way such that it would be most appropriate to override this “place holder” function in one of its derived classes (Oshape or Jshape).  
+This is the Abstract Base Class (ABC) that is constructed to allow all the other shapes of the tetrimino to follow a common structure further exemplifying the idea of . It will have two pure virtual functions, the first being rotate clockwise and the other rotate counter clockwise. The first reason for these to be pure virtual is so that it can make the class an ABC, meaning we need at least one function to be a pure virtual to make this an ABC. Secondly, all the other tetriminos rotate in their own unique way such that it would be most appropriate to override this “place holder” function in one of its derived classes (Oshape or Jshape).  
 
-    Other methods 
+Other methods 
 
-    This class will also have its own draw function, but, rather than it being also a pure virtual, it should just be a regular method because it should not be overridden in the derived class. All the shapes essentially draw in the same way via square’s draw function. It is a matter of keeping track of the position, which could be dealt with in the storage of the 4 square objects in the class. All in all, draw is fundamentally the same for all tetriminos and it should remain a regular method for the sake of not writing extra code.  
+This class will also have its own draw function, but, rather than it being also a pure virtual, it should just be a regular method because it should not be overridden in the derived class. All the shapes essentially draw in the same way via square’s draw function. It is a matter of keeping track of the position, which could be dealt with in the storage of the 4 square objects in the class. All in all, draw is fundamentally the same for all tetriminos and it should remain a regular method for the sake of not writing extra code.  
 
 Set and Get functions for Outline and Fill color [Symbol] the usual definitions.  
 
@@ -51,29 +51,29 @@ The Background (Gamefield)
 
 Methods 
 
- This object is used for the purpose of keeping track of set blocks and drawing the background.  
+This object is used for the purpose of keeping track of set blocks and drawing the background.  
 
 Appropriate set and get functions 
 
 Data Members 
 
-    This object will keep track of the state (OCCUPIED or UNOCCUPIED) of each block space of the background via static array stored as a data member. We will check this array via loop in the main to see if a row is due for deletion. 
+This object will keep track of the state (OCCUPIED or UNOCCUPIED) of each block space of the background via static array stored as a data member. We will check this array via loop in the main to see if a row is due for deletion. 
 
-    A top left (x, y) coordinate position, outline color, and fill color.  
+A top left (x, y) coordinate position, outline color, and fill color.  
 
 Timer  
 
-    Methods 
+Methods 
 
-    This object can return passed time and resets the reference time. 
+This object can return passed time and resets the reference time. 
 
 Data Members 
 
-    It will store the reference time in which the timer starts counting. 
+It will store the reference time in which the timer starts counting. 
 
 Major Algorithms: 
 
-    The major algorithm I have in my project is deleting my squares from a vector stored in main. I did this in my Lab 8 by first constructing a loop that finds a full row in my background’s static array that keeps track of the different states of each of the block spaces on the game field (OCCUPIED or UNOCCUPIED). Once a full row is found (counted 10 unoccupied) I mark that particular row for deletion by storing its index in another vector of integers from which I use to delete my square objects.  
+The major algorithm I have in my project is deleting my squares from a vector stored in main. I did this in my Lab 8 by first constructing a loop that finds a full row in my background’s static array that keeps track of the different states of each of the block spaces on the game field (OCCUPIED or UNOCCUPIED). Once a full row is found (counted 10 unoccupied) I mark that particular row for deletion by storing its index in another vector of integers from which I use to delete my square objects.  
 
 if (background.getGameFieldState(i, j) == OCCUPIED) 
 
