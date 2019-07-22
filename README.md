@@ -1,5 +1,5 @@
 # Tetris
-C++ recreation of Tetris. built on Visual Studio with Bordland Graphics API.
+C++ recreation of Tetris. built on Visual Studio with Bordland Graphics API (see http://www.cs.colorado.edu/~main/cs1300/doc/bgi/bgi.html)
 
 Tetris Design Document 
 
