@@ -19,7 +19,7 @@ The Tetrimino:
 
 Pure Virtual Functions 
 
-This is the Abstract Base Class (ABC) that is constructed to allow all the other shapes of the tetrimino to follow a common structure further exemplifying the idea of . It will have two pure virtual functions, the first being rotate clockwise and the other rotate counter clockwise. The first reason for these to be pure virtual is so that it can make the class an ABC, meaning we need at least one function to be a pure virtual to make this an ABC. Secondly, all the other tetriminos rotate in their own unique way such that it would be most appropriate to override this “place holder” function in one of its derived classes (Oshape or Jshape).  
+This is the Abstract Base Class (ABC) that is constructed to allow all the other shapes of the tetrimino to follow a common structure further exemplifying the idea of polymorphism. It will have two pure virtual functions, the first being rotate clockwise and the other rotate counter clockwise. The first reason for these to be pure virtual is so that it can make the class an ABC, meaning we need at least one function to be a pure virtual to make this an ABC. Secondly, all the other tetriminos rotate in their own unique way such that it would be most appropriate to override this “place holder” function in one of its derived classes (Oshape or Jshape).  
 
 Other methods 
 
